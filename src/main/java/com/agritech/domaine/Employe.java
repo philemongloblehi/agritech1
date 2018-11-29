@@ -58,6 +58,18 @@ public class Employe {
         return id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getFonction() {
+        return fonction;
+    }
+
+    public void setFonction(String fonction) {
+        this.fonction = fonction;
+    }   
+    
     public String getMatricule() {
         return matricule;
     }
@@ -88,14 +100,6 @@ public class Employe {
 
     public void setSexe(String sexe) {
         this.sexe = sexe;
-    }
-
-    public String getFocntion() {
-        return fonction;
-    }
-
-    public void setFocntion(String focntion) {
-        this.fonction = focntion;
     }
 
     public int getSalaire() {
