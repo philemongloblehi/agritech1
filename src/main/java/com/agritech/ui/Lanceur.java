@@ -9,7 +9,7 @@ package com.agritech.ui;
  *
  * @author jhipster
  */
-public class lanceur {
+public class Lanceur {
     
     public static void main(String[] args) {
         
