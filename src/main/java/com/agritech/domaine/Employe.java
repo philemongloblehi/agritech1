@@ -5,7 +5,7 @@
  */
 package com.agritech.domaine;
 
-import java.util.Date;
+import java.sql.Date;
 
 /**
  *
@@ -20,6 +20,7 @@ public class Employe {
     private String sexe;
     private String fonction;
     private int salaire;
+    private String contact;
     
     private Date createdAt;
     private Date updatedAt;
@@ -108,6 +109,14 @@ public class Employe {
 
     public void setSalaire(int salaire) {
         this.salaire = salaire;
+    }
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
     }
 
     @Override

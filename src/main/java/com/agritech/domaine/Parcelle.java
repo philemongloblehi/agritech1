@@ -5,7 +5,7 @@
  */
 package com.agritech.domaine;
 
-import java.util.Date;
+import java.sql.Date;
 
 /**
  *
